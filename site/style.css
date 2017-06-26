@@ -1,0 +1,530 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+header{
+	background-color: #EC715F;
+	height:70px;
+}
+
+.header-logo{
+	color:#FAFAFA;
+	height:70px;
+	margin-left:100px;
+}
+
+.menu{
+	display:inline-block;
+	float:right;
+	margin-right:60px;
+	vertical-align: middle;
+	color:#FAFAFA;
+	line-height: 70px;
+}
+
+.menu4{
+	margin-right:150px;
+}
+
+#humberger{
+	display:none;
+}
+
+#humberger div{
+	display:none;
+}
+
+.main-contents{
+ height:650px;
+ background-image:url(../img/mv.png);
+ background-size:contain;
+ background-position:top;
+ margin-top:0px;
+}
+
+.main-contents h1 {
+ color:#FAFAFA;
+ padding-top:200px;
+ padding-bottom:10px;
+ text-align: center;
+ font-size:50px;
+}
+
+ .main-contents h4{
+ color:#FAFAFA;
+ text-align: center;
+}
+
+#portfolio{
+	background-color:lightgray;
+}
+
+.portfolio-container h1{
+	text-align:center;
+	padding-top: 90px;
+	padding-bottom:8px;
+	
+	
+}
+
+.portfolio-container h2{
+	font-size:15px;
+	text-align: center;
+	padding:30px 0px;
+}
+
+.box{
+	width:300px;
+	height:300px;
+    float:left; 
+    display:inline-block;
+
+}
+
+
+.box:nth-child(3n-2){
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.box:nth-child(3n-1){
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.box:nth-child(3n){
+	margin-bottom:10px;
+ }
+
+
+.box-container{
+	padding-bottom: 90px;
+	margin:0 auto;
+	width:920px;
+}
+
+.box1{
+	
+}
+
+.box1 img{
+	width:300px;
+    height:300px;
+    background-size:cover;
+} 
+
+
+
+.box img{
+	width:300px;
+	height:300px;
+	background-image:url(../img/websuku.png);
+	background-size:cover;
+}
+
+
+
+.clear{
+	clear:left;
+}
+
+.box-line{
+    width:50px;
+    height:3px;
+    background-color:#EC715F;
+    margin:0 auto;
+}
+
+
+p{
+	word-wrap:break-word;
+}
+
+.feature-container{
+	width:80%;
+	padding-top:90px;
+	padding-bottom:370px;
+	margin:0 auto;
+}
+
+
+
+.feature-title h2{
+	
+	text-align:center;
+}
+
+.box-line{
+	width:50px;
+	height:3px;
+	background-color:#EC715F;
+	margin:0 auto;
+}
+
+.feature-message{
+	padding:30px 0px;
+	text-align:center;
+}
+
+.feature-message h3,p{
+	font-size:15px;
+	font-weight:normal;
+}
+
+
+.feature-contents{
+	/*margin:0 auto;*/
+	/*width:90%;*/
+	margin-top:30px;
+	/*padding-bottom:90px;*/
+}
+
+/*.feature-container{
+    margin-bottom:90px;
+}*/
+
+.feature-content{
+	float:left;
+	width:33.3%;
+	font-weight:normal;
+	box-sizing: border-box;
+	padding:0 10px 0 10px;
+	display: inline-block;
+}
+
+
+
+.feature-content h4{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.fa-file-powerpoint-o{
+	text-align:center;
+	font-size:80px;
+	width:100%;
+	margin-bottom: 10px;
+	
+}
+
+.fa-graduation-cap{
+	text-align:center;
+	font-size:80px;
+	width:100%;
+	margin-bottom: 10px;
+	
+}
+
+.fa-cog{
+	text-align:center;
+	font-size:80px;
+	width:100%;
+	margin-bottom: 10px;
+	
+}
+
+.profile{
+	background-color:lightgray;
+    /*margin-top:90px;*/
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+.profile-container{
+    /*padding-right:10%px;
+    padding-left:10%px;*/
+    
+    margin:0 auto;
+    width:80%;
+}
+
+
+
+/*.profile-title{
+width: 200px;
+margin:90px auto 0 auto;
+
+}*/
+
+.profile-title h1{
+	text-align:center;
+}
+
+.profile-title p{
+	margin-top: 30px;
+	text-align:center;
+}
+
+.underline{
+	width:50px;
+	height:3px;
+	background-color:#EC715F;
+	margin:0 auto;
+}
+
+.profile-title{
+	margin-bottom: 30px;
+}
+
+.profile-img img{
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+	display:inline-block;
+	float: left;
+}
+
+p{
+	word-wrap:break-word;
+}
+
+.profile-img{
+    width:50%;
+    padding-left:10%;
+}
+
+.profile-text{
+	width:50%;
+	padding-left:50%;
+}
+
+.MyName{
+    margin-bottom: 30px;
+
+}
+
+.MyName h2{
+    margin-bottom: 10px; 
+}
+
+.MySkill h2{
+    margin-bottom: 10px;
+}
+
+
+
+.contact-container{
+	padding-top:90px;
+	padding-bottom:90px;
+	margin:0px auto 90px auto;
+	width:80%;
+}
+
+.contact-title h1{
+	text-align: center;
+}
+
+.underline{
+	width:50px;
+	height:3px;
+	background-color:#EC715F;
+	margin:0 auto;
+ 
+}
+
+.Mail p{
+    text-decoration:underline;
+}
+
+.Tel p{
+	text-decoration: underline;
+}
+
+.contact-title p{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.contact-box{
+/*	margin-top:30px;*/
+	/*width:50%;*/
+	/*margin:0 auto;*/
+}
+
+.MailTel{
+	float:left;
+	display: inline-block;
+	width:25%;
+}
+
+.SNS{
+	display: inline-block;
+	float:left;
+	width:25%;
+}
+
+.Mail h2{
+	margin-bottom:5px;
+}
+
+.Mail{
+	margin-bottom:20px;
+}
+
+
+
+
+.SNS h2{
+    margin-bottom:5px;
+}
+
+.fa-facebook-official{
+	font-size:50px;
+}
+
+.fa-twitter-square{
+	font-size:50px;
+}
+
+.fa-instagram{
+	font-size:50px;
+	
+}
+
+
+footer{
+	width:100%;
+	height:60px;
+	background-color:#EC715F;
+	margin-top:90px;
+	/*text-alignは親要素につける！*/
+	text-align: center;
+}
+
+small{
+	color:#FAFAFA;
+	line-height: 60px;
+}
+
+@media (max-width: 768px){
+    .header-logo{
+
+	margin-left:15px;
+    }
+    .menu{
+    	display:none;
+    }
+    #humberger {
+      display: inline-block;
+      height: 24px;
+      width: 36px;
+      vertical-align: middle;
+    }
+    #humberger div {
+      display: inline-block;
+      height: 4px;
+      width: 24px;
+      background-color:#444;
+      margin: 2px 6px;
+      border-radius: 2px;
+    }    
+    .main-contents{
+    	background-image:url(../img/code.png);
+        background-size: cover;
+    }
+    .portfolio-container{
+    	padding-left:10%;
+    	padding-right:10%;     
+    }
+
+     .box{
+        margin:0 auto;
+     }
+    .box1{
+    	display: none;
+    }
+    .box2{
+    	/*overflow: hidden;*/
+    	float:none;
+    	width:100%;
+
+    }
+    .box3{
+    	display: none;
+    }
+    .box4{
+    	
+    	/*overflow: hidden;*/
+    	float:none;
+    	width:100%;
+
+    }
+    .box5{
+    	display:none;
+    }
+    .box6{
+    	
+    	/*overflow: hidden;*/
+    	float:none;
+    	width:100%;
+
+    }
+
+    .box:nth-child(3n-2){
+	margin-right:0px;
+	
+	}
+
+
+    .box:nth-child(3n-1){
+	margin-right:0px;
+	}
+
+    .feature{
+        /*padding-left:10%;
+        padding-right:5%;*/
+        padding-bottom:600px;
+    }
+
+    .feature-content{
+    	width:100%;
+    	padding-bottom:20px;
+
+    }
+
+    
+
+    .profile-img img{
+    	float:none;
+   
+    	
+
+    }
+    .profile-text{
+	    padding-left:0%;
+	    width:100%;
+}
+    }
+    .contact-box{
+    	text-align: center;
+    }
+    .MailTel{
+	float:none;
+	padding-left: 0;
+	width:100%;
+	/*text-align: center;*/
+    }
+    .SNS{
+	padding-left: 0;
+	margin:20px auto 0 auto;
+	width:100%;
+    /*text-align: center;*/
+    }
+    .fa-facebook-official{
+    	font-size:200%;
+    	
+    }
+    .fa-twitter-square{
+	    font-size:200%;	
+        
+    }
+
+    .fa-instagram{
+	    font-size:200%;
+	    
+    }
+
+}
